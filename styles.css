@@ -1,0 +1,54 @@
+.tooltiptext{
+  color:black; 
+  cursor: pointer;
+  text-align: end;
+}
+.contanier{
+    visibility: hidden;
+    width:200px;
+    height:100px;
+    cursor:move;
+    position: absolute;
+    z-index: 1000;
+    background-color:rgb(106, 175, 237);
+    border: 1px solid #080f42;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.drag{
+    top:0;
+}
+.tooltip{
+    visibility: visible;
+}
+.list{
+   width: 100px;
+   height: 50px;
+}
+.list_item{
+    list-style: none;
+    font-size: 18px;
+    text-align:start;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* .change-theme{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 1px solid rgb(24, 24, 31);
+} */
+/* .green-them{
+    background-color: rgb(13, 244, 13);
+}
+.red-them{
+    background-color: rgb(254, 51, 15);
+}
+
+.div_red{
+    background-color:rgb(254, 121, 97);
+}
+.div_green{
+    background-color: rgb(119, 252, 119);
+} */
+
